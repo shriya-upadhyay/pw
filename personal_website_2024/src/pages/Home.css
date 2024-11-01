@@ -147,7 +147,7 @@ html, body{
     position: absolute;
     color:#A67564;
     left: 5%;
-    top: 63%;
+    top: 65%;
     font-size: 1.4rem;
 }
 
@@ -164,7 +164,7 @@ html, body{
 #more {
     position: absolute;
     left: 5%;
-    top: 73%;
+    top: 75%;
     background-color: #723E31;
     color:#f2f1ef
 }
