@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap');
+@keyframes typing {
+    from { width: 0; }
+    to { width: 40%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    60% { border-color: #A67564; }
+  }
+  
+  .typing {
+    border-right: 0.15rem solid #A67564; /* The caret */
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Keeps the content clipped to the container size */
+    animation: typing 5s steps(30, end), blink-caret .75s step-end infinite; /* Apply the typing and caret animations */
+  }
+
+  * {
+    box-sizing: border-box; /* Include padding and borders in width/height calculations */
+  }
+
+html, body{
+    max-width: 100%; /* Allow full width */
+    width: 100%;
+    background-color: #f2f1ef;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.contact-buttons{
+    display: flex;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 20%;
+    height: 10%;
+    z-index: 2;
+}
+
+.social-buttons {
+    margin-right: 3%;
+    z-index: 3;
+    border-radius: 75%;
+    padding-right: 10%;
+    width: 1rem;
+    height: 50%;
+    background-color: #723E31;
+
+}
+
+#mail {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: -0.5rem;
+    margin-top: -0.25rem;
+}
+
+#linkedin {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: -0.5rem;
+    margin-top: -0.25rem;
+
+}
+
+#mail:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+#github {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: -0.5rem;
+    margin-top: -0.25rem;
+
+}
+
+#github:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#medium {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: -0.5rem;
+    margin-top: -0.25rem;
+
+}
+
+#medium:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#resume {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: -0.5rem;
+    margin-top: -0.25rem;
+
+}
+
+#resume:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}  
+
+
+.profile {
+    position: relative; /* Ensures child elements can be absolutely positioned */
+    overflow: hidden;  /* This will cut off the blue circle */
+    width: 90%; /* Set this to control the overall width */
+    height: auto; /* Set this to control the overall height */
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+.blueCircle {
+    position: absolute;
+    left: 50%; 
+    width: 50%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: #4b6043;
+    opacity: 0.5;
+    z-index: 1;
+    margin: 0;
+    transform: translateX(-20%);
+}
+
+.image_shriya {
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 50%;
+    bottom: 33%;
+    right: 18%;
+    z-index: 2;
+}
+
+#Hi {   
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    color:#A67564;
+    font-size: 2rem;
+}
+
+.line {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    width: 10%;
+    height: 0.3%;
+    background-color: #A67564;
+}
+#name {
+    position: absolute;
+    color: #A67564;
+    left: 5%;
+    top: 35%;
+    font-size: 5rem;
+    text-indent: 0;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+
+#tagline {
+    position: absolute;
+    color:#A67564;
+    left: 5%;
+    top: 63%;
+    font-size: 1.4rem;
+}
+
+
+#about {
+    position: absolute;
+    left: 0%;
+    top: 85%;
+    width: 100%;
+    height: 150%;
+    background-color: #f2f1ef;
+}
+
+#more {
+    position: absolute;
+    left: 5%;
+    top: 73%;
+    background-color: #723E31;
+    color:#f2f1ef
+}
+  
+
+
+    
+
+    
+
