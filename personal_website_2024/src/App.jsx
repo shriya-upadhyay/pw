@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar /> Include Navbar here
+      <Navbar /> 
       <div id="content">
         <Routes>
           <Route path="/" element={<Home />} />

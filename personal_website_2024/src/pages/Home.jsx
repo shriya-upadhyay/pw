@@ -62,7 +62,7 @@ function Home() {
                         <IoMdMail id="mail" />
                     </button>
                     <button onClick={LinkedinClick} className="social-buttons">
-                        <FaLinkedin id="linkedin" />
+                        <FaLinkedin id="linkedin"/>
                     </button>
                     <button onClick={GithubClick} className="social-buttons">
                         <FaGithub id="github" />
